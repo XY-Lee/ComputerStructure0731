@@ -185,8 +185,8 @@ bool ChangeFace( CvSeq *faces, Img &mainImg, int faceNum, int headIndex ) {
   CvPoint point1;
   CvRect* rectangle = (CvRect*)cvGetSeqElem( faces, faceNum ); // 取得使用者要的是哪一張臉
   // 將 臉的座標 抓出來
-  point.*** = rectangle->*** ;
-  point.*** = rectangle->***;
+  point1.*** = rectangle->*** ;
+  point1.*** = rectangle->***;
 
   Mat reScaleTemp;
   Mat imgROI ;
